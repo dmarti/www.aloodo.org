@@ -1,0 +1,69 @@
+/* From: /* http://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, code,
+em, img, q, strong, sub, sup, var,
+b, u, i, ol, ul, li,
+fieldset, form, footer, header, 
+menu, nav, output, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 150%;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+pre, code {
+	font-family: monospace;
+}
+
+p, pre {
+	margin-bottom: 1.5ex;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header h1 {
+	font-size: 300%;
+	padding: 2ex;
+	text-align: center;
+}
+
+main {	
+	max-width: 24em;
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 150%;
+}
+
+main * {
+	overflow: visible;
+}
+
