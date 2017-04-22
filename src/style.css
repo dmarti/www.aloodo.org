@@ -24,10 +24,20 @@ strong, b {
 
 pre, code {
 	font-family: monospace;
+	padding-top: 2ex;
+	padding-bottom: 2ex;
 }
 
 p, pre {
 	margin-bottom: 1.5ex;
+}
+
+h1 a {
+	color: inherit;
+}
+
+h1 a:hover {
+	text-decoration: none;
 }
 
 a {
@@ -56,11 +66,11 @@ header h1 {
 }
 
 main {	
-	max-width: 24em;
+	max-width: 30em;
 	text-align: left;
 	margin-left:auto;
 	margin-right:auto;
-	font-size: 150%;
+	font-size: 175%;
 }
 
 main * {
