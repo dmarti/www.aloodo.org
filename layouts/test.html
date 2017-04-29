@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.aloodo.org/index.rss" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" type="text/css" media="all" href="https://new.aloodo.org/style.css" />
+</head>
+<body>
+{{> header}}
+
+<div id="wrapper"><main>
+	<h1>{{ title }}</h1>
+	{{{ contents }}}
+	<p class="date">Last modified: {{ date }}</p>
+</main></div>
+
+<footer><div>
+	<p>Copyright &copy; 2015-2017 Aloodo Project. All rights reserved.</p>
+</div></footer>
+
+<script src="https://ad.aloodo.com/track.js"></script>
+</body></html>
+

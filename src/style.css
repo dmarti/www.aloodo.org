@@ -65,12 +65,16 @@ header h1 {
 	text-align: center;
 }
 
+footer {
+	padding: 2ex;
+	text-align: center;
+}
+
 main {	
 	max-width: 30em;
 	text-align: left;
 	margin-left:auto;
 	margin-right:auto;
-	font-size: 175%;
 }
 
 main * {
