@@ -3,10 +3,11 @@ layout: index.html
 date: 2017-04-23
 ---
 
-Aloodo is the <q>un-tracker</q> that is blocked by a
-wide range of privacy tools.  It's here to help web
-site maintainers understand and help web users who
-are still vulnerable to third-party tracking.
+Aloodo is the <q>un-tracker</q> designed to be blocked
+by all the popular Web privacy tools.  You can use it
+to help your users learn if they are still vulnerable
+to third-party tracking, and start to do something
+about it.
 
 ## How it works
 
@@ -46,10 +47,9 @@ functions `trackerDetected` and `trackingConfirmed`.
    your real humans and their adfraud bots.
 
  * **Everybody:** Warn users who might be trackable
-   from site to site, so that
-   you can recommend legit [tracking
-   protection](http://www.aloodo.org/protection/)
-   in place of a problematic ad blocker.
+   from site to site, so that you can recommend legit
+   [tracking protection](/protection/) in place of
+   a problematic ad blocker.
 
 
 ## The un-tracking pixel
@@ -92,6 +92,12 @@ reports based on aggregated usage of the un-tracking
 pixel on your site.  **We delete logs frequently, so
 we we are not set up to do reports from old data.**)
 
+## The tracking protection test
+
+Find out if this browser is vulnerable.
+
+<form target="_blank" method="GET" action="https://test.aloodo.click/">
+<input type="submit" value="Run tracking protection test"></form>
 
 ## Questions? Suggestions?
 

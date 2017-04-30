@@ -65,12 +65,7 @@ header h1 {
 	text-align: center;
 }
 
-footer {
-	padding: 2ex;
-	text-align: center;
-}
-
-main {	
+main, footer {	
 	max-width: 30em;
 	text-align: left;
 	margin-left:auto;

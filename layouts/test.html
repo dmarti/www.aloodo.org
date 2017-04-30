@@ -11,14 +11,22 @@
 
 <div id="wrapper"><main>
 	<h1>{{ title }}</h1>
-	{{{ contents }}}
-	<p class="date">Last modified: {{ date }}</p>
+
+	<progress id="testprogress" max="23000" value="0" style="display: none; width: 100%"></progress>
+
+	<div id="message">{{{ contents }}}</div>
+
 </main></div>
 
 <footer><div>
+	<p class="date">Last modified: {{ date }}</p>
 	<p>Copyright &copy; 2015-2017 Aloodo Project. All rights reserved.</p>
 </div></footer>
 
 <script src="https://ad.aloodo.com/track.js"></script>
+<script src="/code/test.js"></script>
+<script src="https://aloodo.github.io/bowser/bowser.min.js"></script>
+<script>window.onunload=function(){};</script>
+
 </body></html>
 
