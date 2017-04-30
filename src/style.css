@@ -11,11 +11,7 @@ menu, nav, output, section, summary {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-
-h2 {
-	font-weight: bold;
-	font-size: 150%;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 strong, b {
@@ -23,6 +19,7 @@ strong, b {
 }
 
 pre, code {
+	font-family: 'Anonymous Pro', monospace;
 	font-family: monospace;
 	padding-top: 2ex;
 	padding-bottom: 2ex;
@@ -32,7 +29,7 @@ p, pre {
 	margin-bottom: 1.5ex;
 }
 
-h1 a {
+h1 a, h2 a {
 	color: inherit;
 }
 
@@ -51,18 +48,32 @@ a:hover {
 body {
 	line-height: 1.5;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-header h1 {
+header {
 	font-size: 300%;
 	padding: 2ex;
-	text-align: center;
+}
+
+header h1 {
+	font-weight:800;
+}
+
+header h2 {
+	font-size: 2vmax;
+}
+
+main h2 {
+	font-size: 140%;
+	font-weight: 800;
 }
 
 main, footer {	
@@ -76,3 +87,6 @@ main * {
 	overflow: visible;
 }
 
+button, form {
+	padding: 2ex 0px 4ex 0px;
+}
