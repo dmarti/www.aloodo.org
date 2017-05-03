@@ -10,4 +10,4 @@ for file in `ls conf`; do
 	scp conf/$file $HOST:/etc/apache2/sites-available
 	ssh $HOST sudo a2ensite $file
 done
-ssh $HOST sudo service apache2 reload
+ssh $HOST sudo service apache2 restart

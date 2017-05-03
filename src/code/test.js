@@ -1,4 +1,4 @@
-var failMessage = '<div class="warning"> <p><b>Third-party tracking detected:</b> Your browser is vulnerable to third-party tracking. Please install or configure <a href="/protection/">tracking protection</a> to help protect yourself and the web sites you use.<p> <form target="_blank" method="GET" action="https://new.aloodo.org/protection/"> <input type="submit" value="Get tracking protection"></form>';
+var failMessage = '<div class="warning"> <p><b>Third-party tracking detected:</b> Your browser is vulnerable to third-party tracking. Please install or configure <a href="/protection/">tracking protection</a> to help protect yourself and the web sites you use.<p> <p><a target="_blank" class="button" href="/tracking-protection/">Get tracking protection</a></p>';
 
 var abWarning = '<p id="abpwarning"><b>This browser appears to be running an ad blocker that is not providing tracking protection. You need <a href="/protection/">tracking protection</a></b>.</p>';
 

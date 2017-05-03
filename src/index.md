@@ -96,8 +96,7 @@ we we are not set up to do reports from old data.**)
 
 Find out if this browser is vulnerable.
 
-<form target="_blank" method="GET" action="https://test.aloodo.click/">
-<input type="submit" value="Run tracking protection test"></form>
+<p><a class="button" target="_blank" href="https://test.aloodo.click/">Run tracking protection test</a></p>
 
 ## Questions? Suggestions?
 
