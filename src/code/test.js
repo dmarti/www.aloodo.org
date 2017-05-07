@@ -85,6 +85,9 @@ function setBounce(url) {
 }
 
 function setupProgress() {
+	if (window.location.host.indexOf('localhost') == 0) {
+		return;
+	}
 	if (window.location == 'https://new.aloodo.org/test/') {
 		return;
 	}
@@ -93,6 +96,10 @@ function setupProgress() {
 			window.location = 'https://test.aloodo.click/';
 		}
 		return;
+	}
+	var el = document.getElementsByTagName('nav')[0];
+	if (el) {
+		el.style.display = 'none';
 	}
 	if (window.location.host == 'test.aloodo.click') {
 		setBounce('https://test.aloodo.info/');

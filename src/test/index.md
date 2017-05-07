@@ -14,5 +14,5 @@ favorite sites.
 
 Click <q>Run test</q> below to start the test.
 
-<button id="start">Run test</button>
+<a class="button" id="start">Run test</a>
 
