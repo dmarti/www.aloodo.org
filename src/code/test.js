@@ -27,8 +27,8 @@ function setMessage(html) {
 }
 
 function trackingDetected() {
-	if (window.location != 'https://new.aloodo.org/test/result/') {
-		window.location = 'https://new.aloodo.org/test/result/';
+	if (window.location != 'https://www.aloodo.org/test/result/') {
+		window.location = 'https://www.aloodo.org/test/result/';
 		return;
 	}
 	testprogress.style.display = 'none';
@@ -58,7 +58,7 @@ function startTest() {
 
 function clearResults() {
 	localStorage.removeItem('tptest');
-	bounce('https://new.aloodo.org/test/');
+	bounce('https://www.aloodo.org/test/');
 }
 
 function setupButtons() {
@@ -68,7 +68,7 @@ function setupButtons() {
 	}
 	var el = document.getElementById('getProtection');
 	if (el) {
-		el.addEventListener('click', bounce, 'https://new.aloodo.org/protection/');
+		el.addEventListener('click', bounce, 'https://www.aloodo.org/protection/');
 	}
 	var el = document.getElementById('clearResults');
 	if (el) {
@@ -88,11 +88,11 @@ function setupProgress() {
 	if (window.location.host.indexOf('localhost') == 0) {
 		return;
 	}
-	if (window.location == 'https://new.aloodo.org/test/') {
+	if (window.location == 'https://www.aloodo.org/test/') {
 		return;
 	}
 	if (window.location.pathname == '/test/result/') {
-		if (window.location.host != 'new.aloodo.org') {
+		if (window.location.host != 'www.aloodo.org') {
 			window.location = 'https://test.aloodo.click/';
 		}
 		return;
@@ -111,7 +111,7 @@ function setupProgress() {
 		setBounce('https://test.aloodo.net/');
 		testprogress.value = 10000;
 	} else if (window.location.host == 'test.aloodo.net') {
-		setBounce('https://new.aloodo.org/test/result/');
+		setBounce('https://www.aloodo.org/test/result/');
 		testprogress.value = 15000;
 	} else {
 		bounce('https://test.aloodo.click');

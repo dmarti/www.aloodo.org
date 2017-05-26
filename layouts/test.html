@@ -4,7 +4,7 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.aloodo.org/index.rss" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
-	<link rel="stylesheet" type="text/css" media="all" href="https://new.aloodo.org/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="https://www.aloodo.org/style.css" />
 </head>
 <body>
 {{> header}}
@@ -18,15 +18,12 @@
 
 </main></div>
 
-<footer><div>
-	<p class="date">Last modified: {{ date }}</p>
-	<p>Copyright &copy; 2015-2017 Aloodo Project. All rights reserved.</p>
-</div></footer>
+{{> footer}}
 
+<script src="/code/check3p.js"></script>
+<script src="/js/smartquotes.js"></script>
 <script src="https://ad.aloodo.com/track.js"></script>
-<script src="/code/test.js"></script>
-<script src="https://aloodo.github.io/bowser/bowser.min.js"></script>
-<script>window.onunload=function(){};</script>
+<script>smartquotes();</script>
 
 </body></html>
 

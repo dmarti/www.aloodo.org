@@ -12,7 +12,7 @@ metalsmith(__dirname)
 	.clean(true)
 	.metadata({
 		site: {
-			url: 'https://new.aloodo.org/',
+			url: 'https://www.aloodo.org/',
 			name: 'Aloodo',
 			description: "Tracking protection for sites and brands"
     		}

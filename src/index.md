@@ -42,9 +42,10 @@ functions `trackerDetected` and `trackingConfirmed`.
  * **Ad-supported sites:** Now it's easy to create a
    report for your advertisers on the trackability
    of your site's real audience&mdash;if a low-value
-   competitor claims to reach the same people for
-   less money, now you can show the difference between
-   your real humans and their adfraud bots.
+   competitor claims to reach the same people for less
+   money, now you can show the difference between
+   your real humans and their adfraud bots. (More:
+   [Aloodo for publishers](/publishers/))
 
  * **Everybody:** Warn users who might be trackable
    from site to site, so that you can recommend legit

@@ -32,7 +32,7 @@ devices from third-party tracking.
 <section id="privacybadger"><h2>Privacy Badger</h2>
 
 [Privacy Badger](https://www.eff.org/privacybadger),
-a project of the [Electronic Frontier
+a project of the non-profit [Electronic Frontier
 Foundation](https://www.eff.org/), is a tracking
 protection extension for Firefox and Google Chrome.
 Privacy Badger only blocks trackers that it detects
