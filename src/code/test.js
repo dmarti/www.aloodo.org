@@ -31,9 +31,9 @@ function trackingDetected() {
 		window.location = 'https://www.aloodo.org/test/result/';
 		return;
 	}
+	testFailed = true;
 	testprogress.style.display = 'none';
 	setMessage(failMessage);
-	testFailed = true;
 }
 
 function showPass() {
