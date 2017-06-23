@@ -127,7 +127,7 @@ nav {
 nav li {
 	display: inline;
 	list-style: none;
-	padding-right: 2px;
+	padding-right: 2ex;
 	font-size: 120%;
 	font-weight: 800;
 }
