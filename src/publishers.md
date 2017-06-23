@@ -4,12 +4,23 @@ layout: index.html
 date: 2017-05-13
 ---
 
-A key question for web publishers is: how many of the people
-who visit your site are using some kind of protection
-from third-party tracking?  Third-party tracking
-has been an unfixed vulnerability in web browsers
-for a long time, and 
-[creates incentives for low-quality ads and for ad blocking](https://digitalcontentnext.org/blog/2016/04/27/service-journalism-and-the-web-advertising-problem/).
+How many of the people who visit your site are using
+some kind of protection from third-party tracking?
+For publishers seeking to reclaim ad revenue, user
+tracking protection is vital. Without protection,
+third-party tracking enables low-quality sites
+to claim to offer ads that reach your valuable
+audience.  And third-party tracking [drives ad
+standards down and creates incentives for ad
+blocking](https://digitalcontentnext.org/blog/2016/04/27/service-journalism-and-the-web-advertising-problem/).
+
+Tools to fix the problem are available for all the
+common browsers, but you have to understand the problem,
+and encourage readers to get protected, in order
+to move ad money back from tech intermediaries to
+your site.
+
+## Measuring the problem
 
 In order to measure the problem on one news site,
 you can use some  _first_-party data collection
@@ -95,4 +106,27 @@ between your numbers and theirs. Either you're
 reaching different people, or you have more real
 humans and they have more adfraud bots, or both.
 
+
+## Follow-up
+
+Depending on the data you collect, you might
+choose to do a variety of tracking protection campaigns.
+Aloodo is designed to support:
+
+ * Extra articles in soft paywall systems for protected
+   users
+
+ * Tracking warnings, optionally integrated with a
+ settings page or privacy
+   policy
+
+ * Reverse tracking walls: deny certain pages to users
+   who are vulnerable to tracking
+
+ * Anti-adblocker integration, to help move ad blocker
+   users to publisher-friendly privacy tools
+
+Please [contact us](http://blog.aloodo.org/people/)
+for more info, or follow our
+[blog](http://blog.aloodo.org/) for updates.
 
