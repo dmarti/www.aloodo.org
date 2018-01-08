@@ -81,7 +81,7 @@ one to run if the script can <q>track</q> the user,
 and switch the image to `td.png`.
 
 
-## Step three: make reports and sell
+## Step three: make reports and sell ads
 
 In this example you can use the regular server logs to compare
 the number of clients that load the original image,
