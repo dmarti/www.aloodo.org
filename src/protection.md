@@ -2,7 +2,7 @@
 title: Tracking Protection
 permalink: /protection/
 layout: index.html
-date: 2017-04-30
+date: 2018-01-29
 ---
 
 
@@ -29,6 +29,16 @@ devices from third-party tracking.
 <p><a href="https://disconnect.me/disconnect" class="buttonlink">Get Disconnect</a></p>
 </section>
 
+
+<section id="firefox"><h2>Firefox</h2>
+
+Tracking Protection is built into Firefox, but you need to change a setting in Preferences 
+to turn it on.
+
+<p><a href="https://blog.mozilla.org/firefox/tracking-protection-always-on/" class="buttonlink">Turn on Tracking Protection</a></p>
+</section>
+
+
 <section id="privacybadger"><h2>Privacy Badger</h2>
 
 [Privacy Badger](https://www.eff.org/privacybadger),
@@ -42,6 +52,7 @@ Privacy badger is trained.
 
 <p><a href="https://www.eff.org/privacybadger" class="buttonlink">Get Privacy Badger</a></p>
 </section>
+
 
 <section id="msie"><h2>Microsoft Internet Explorer</h2>
 
