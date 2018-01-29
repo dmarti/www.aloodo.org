@@ -3,6 +3,8 @@
 HOST=citrus.zgp.org
 DESTPATH=/var/www/aloodo
 
+env BUILD_ONCE=1 npm start
+
 cd `dirname "$BASH_SOURCE"`
 ssh $HOST mkdir -p $DESTPATH
 mkdir -p public/privacy

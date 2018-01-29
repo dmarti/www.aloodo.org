@@ -4,9 +4,15 @@ var layouts = require('metalsmith-layouts');
 var handlebars = require('handlebars');
 var logger = require('metalsmith-logger');
 var permalinks = require('metalsmith-permalinks');
-var serve = require('metalsmith-serve');
-var watch = require('metalsmith-watch');
 var dateFormatter = require('metalsmith-date-formatter');
+
+if(process.env['BUILD_ONCE']) {
+        var serve = function(){};
+        var watch = function(){};
+} else {
+        var serve = require('metalsmith-serve');
+        var watch = require('metalsmith-watch');
+}
 
 metalsmith(__dirname)
 	.clean(true)
