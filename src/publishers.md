@@ -8,7 +8,7 @@ How many of the people who visit your site are using
 some kind of protection from third-party tracking?
 For publishers seeking to reclaim ad revenue, user
 tracking protection is vital. Without protection,
-third-party tracking enables low-quality sites
+third-party tracking enables fraudulent and low-quality sites
 to claim to offer ads that reach your valuable
 audience.  And third-party tracking [drives ad
 standards down and creates incentives for ad
