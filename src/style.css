@@ -11,7 +11,11 @@ menu, nav, output, section, summary {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: sans-serif;
+}
+
+body {
+        background-color: #f0f4f0;
 }
 
 strong, b {
@@ -19,7 +23,6 @@ strong, b {
 }
 
 pre, code {
-	font-family: 'Anonymous Pro', monospace;
 	font-family: monospace;
 	padding-top: 2ex;
 	padding-bottom: 2ex;
