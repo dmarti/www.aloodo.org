@@ -1,6 +1,6 @@
 ---
 layout: index.html
-date: 2017-04-23
+date: 2018-05-22
 ---
 
 Aloodo is the <q>un-tracker</q> designed to be blocked
@@ -101,7 +101,6 @@ Find out if this browser is vulnerable.
 
 ## Questions? Suggestions?
 
- * Post an issue on the [project on
-GitHub](https://github.com/Aloodo/ad.aloodo.com).
+ * Post an issue on [GitHub](https://github.com/Aloodo/).
 
 
