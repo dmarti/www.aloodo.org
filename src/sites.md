@@ -12,6 +12,14 @@ marketing difficult, by creating confusing data about
 which campaigns and projects are bringing in your
 desired users.
 
+And when users can be <q>followed</q> from a site they
+trust to a site they don't, they are likely to see 
+brand-unsafe ad placements, where it appears that
+a legitimate brand is supporting a site with problem
+content. Users who are protected from third-party tracking
+are also protected from the common ways that brand-unsafe
+ads can reach them.
+
 Data on tracking-protected users can be a valuable
 way to check that your audience is authentic.
 When you know the tracking protection profile of
